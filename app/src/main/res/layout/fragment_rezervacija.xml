@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_margin="16dp"
+              android:orientation="vertical"
+              android:background="@color/bojaTexta"
+              android:gravity="center_vertical"
+              android:padding="20dp">
+    <TextView
+        style="?android:listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/rezervacija_naziv_labela"
+        android:gravity="center_horizontal"/>
+    <EditText
+        android:id="@+id/crime_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/rezervacija_naziv_hint"
+        android:gravity="center_horizontal"/>
+    <TextView
+        style="?android:listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/rezervacija_detalji_label"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="40sp"
+        />
+    <Button
+        android:id="@+id/crime_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/bojaTexta"
+        android:background="@color/bojaDugme"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="45sp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="31dp"
+            android:gravity="center_horizontal"
+            android:text="BROJ OSOBA:"
+            android:paddingRight="16dp"/>
+
+        <EditText
+            android:id="@+id/broj_ulaznica"
+            android:layout_width="72dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:paddingLeft="16dp"
+            android:gravity="center_horizontal"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="45sp">
+
+        <CheckBox
+            android:id="@+id/crime_solved"
+            android:layout_width="204dp"
+            android:layout_height="wrap_content"
+            android:text="@string/rezervirano_labela"
+            />
+    </LinearLayout>
+
+</LinearLayout>

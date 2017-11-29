@@ -1,0 +1,21 @@
+<resources>
+
+    <string name="app_name">Bon Appetit</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_meni">Meni</string>
+
+    <string name="rezervacija_naziv_hint">Unesi ime i prezime </string>
+    <string name="rezervacija_naziv_labela">Ime i prezime</string>
+    <string name="rezervacija_detalji_label">Detalji</string>
+    <string name="rezervirano_labela">Rezervirano</string>
+    <string name="date_picker_title">Datum rezervacije:</string>
+    <string name="nova_rezervacija">Nova rezervacija</string>
+    <string name="show_subtitle">Prikaži podnaslov</string>
+    <string name="hide_subtitle">Sakrij podnaslov</string>
+    <string name="subtitle_format">%1$d rezervacija</string>
+
+</resources>

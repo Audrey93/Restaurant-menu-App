@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/predjelo"
+            android:title="Predjelo"/>
+        <item
+            android:id="@+id/glavnojelo"
+            android:title="Glavno jelo"/>
+        <item
+            android:id="@+id/desert"
+            android:title="Desert"/>
+        <item
+            android:id="@+id/pice"
+            android:title="Piće"/>
+    </group>
+
+    <item android:title="Ostale opcije">
+        <menu>
+            <item
+                android:id="@+id/naruci"
+                android:title="Naruči"/>
+            <item
+                android:id="@+id/galerija"
+                android:title="Galerija"/>
+            <item
+                android:id="@+id/onama"
+                android:title="O nama"/>
+
+        </menu>
+    </item>
+
+</menu>

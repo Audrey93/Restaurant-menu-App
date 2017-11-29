@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_onama"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.aminapc.lonacipoklopac.Menuu.Onama">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/slika13"
+                android:id="@+id/imageView2"/>
+
+            <TextView
+                android:text="Bon Appetit"
+                android:layout_width="match_parent"
+                android:textSize="30sp"
+                android:layout_height="wrap_content"
+                android:id="@+id/onama_naslov"
+                android:textAlignment="center"
+                android:layout_marginTop="50dp"/>
+
+            <TextView
+                android:text="Radno vrijeme:  07:00 - 23:00"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/onama_rv"
+                android:textAlignment="center"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:text="Ferhadija 13, Sarajevo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/onama_adresa"
+                android:textAlignment="center"
+                android:layout_marginTop="10dp"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
